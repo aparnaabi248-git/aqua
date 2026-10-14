@@ -1,0 +1,13 @@
+{
+  "dataset": "Surface Water Quality (Manual - Physical Parameters), CPCB",
+  "kind": "physical",
+  "state": "Tamil Nadu",
+  "period": "2021 - 2025",
+  "source_url": "https://nwdp.nwic.gov.in/dataset/c547abaa-fbdc-4f46-b152-dc023be0c75c/resource/d44ae053-9b0f-420b-8851-f9ad67f1b0b5/download/swq_physical_parameter_manual_cpcb_tn_2021_2025.csv",
+  "portal_page": "https://nwdp.nwic.gov.in/dataset/surface-water-quality-manual-physical-parameters-cpcb",
+  "catalogue": "https://nwdp.nwic.gov.in/dataset/?groups=water-quality&organization=cpcb",
+  "frequency": "monthly",
+  "retrieved_at": "2026-10-13T09:24:24+00:00",
+  "latest_observation": "2021-12-13T08:30:00",
+  "rows": 401
+}

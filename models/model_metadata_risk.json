@@ -1,0 +1,89 @@
+{
+  "target": "Risk",
+  "best_model_name": "XGBoost",
+  "feature_names": [
+    "Q_E",
+    "ZN_E",
+    "PH_E",
+    "DBO_E",
+    "DQO_E",
+    "SS_E",
+    "SSV_E",
+    "SED_E",
+    "COND_E",
+    "PH_P",
+    "DBO_P",
+    "DQO_P",
+    "SS_P",
+    "SSV_P",
+    "SED_P",
+    "COND_P",
+    "PH_D",
+    "DBO_D",
+    "DQO_D",
+    "SS_D",
+    "SSV_D",
+    "SED_D",
+    "COND_D",
+    "Month",
+    "DayOfYear",
+    "BOD_removal_eff",
+    "COD_removal_eff",
+    "SS_removal_eff",
+    "COND_removal_eff",
+    "BOD_COD_ratio",
+    "SS_SSV_ratio",
+    "avg_pH",
+    "avg_DBO",
+    "avg_DQO",
+    "avg_COND"
+  ],
+  "classes": [
+    "HIGH",
+    "LOW",
+    "MEDIUM"
+  ],
+  "results": {
+    "Logistic Regression": {
+      "CV F1 Macro (mean)": 0.6128054913140015,
+      "CV F1 Macro (std)": 0.02886121452053867,
+      "Accuracy": 0.5283018867924528,
+      "Precision Macro": 0.5225918225918226,
+      "Recall Macro": 0.5272486772486772,
+      "F1 Macro": 0.5235591756139701,
+      "F1 Weighted": 0.5245646266581908,
+      "ROC-AUC": 0.7144142633579253
+    },
+    "Decision Tree": {
+      "CV F1 Macro (mean)": 0.609399253931292,
+      "CV F1 Macro (std)": 0.036544657127385055,
+      "Accuracy": 0.5471698113207547,
+      "Precision Macro": 0.5480127186009539,
+      "Recall Macro": 0.5462962962962963,
+      "F1 Macro": 0.5468253968253968,
+      "F1 Weighted": 0.5478661275831088,
+      "ROC-AUC": 0.6310119979134063
+    },
+    "Random Forest": {
+      "CV F1 Macro (mean)": 0.7139237071085541,
+      "CV F1 Macro (std)": 0.03186900451320629,
+      "Accuracy": 0.6132075471698113,
+      "Precision Macro": 0.5984126984126984,
+      "Recall Macro": 0.6111111111111112,
+      "F1 Macro": 0.5985138925029635,
+      "F1 Weighted": 0.5998556552221878,
+      "ROC-AUC": 0.8255048811386839
+    },
+    "XGBoost": {
+      "CV F1 Macro (mean)": 0.7149057053913705,
+      "CV F1 Macro (std)": 0.034669599242710264,
+      "Accuracy": 0.6792452830188679,
+      "Precision Macro": 0.6694064368482974,
+      "Recall Macro": 0.6772486772486772,
+      "F1 Macro": 0.6671278042931913,
+      "F1 Weighted": 0.6684768493685241,
+      "ROC-AUC": 0.8344027125717267
+    }
+  },
+  "created_at": "2026-10-08T09:22:39.743322"
+}

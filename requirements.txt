@@ -1,0 +1,12 @@
+# Pinned to the exact tested environment (Python 3.13) so saved
+# scikit-learn/XGBoost model files unpickle identically on the host.
+streamlit==1.65.0
+pandas==3.0.5
+numpy==2.5.2
+scikit-learn==1.9.0
+xgboost==3.4.1
+plotly==7.1.0
+joblib==1.6.0
+python-dotenv==1.2.2
+matplotlib==3.11.1
+seaborn==0.13.2
